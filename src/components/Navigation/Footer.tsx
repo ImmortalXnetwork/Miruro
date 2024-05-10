@@ -140,7 +140,7 @@ export function Footer() {
               rel='noopener noreferrer'
               style={{ color: 'grey' }}
             >
-              miruro.com
+              Anime State
             </a>{' '}
             | Website Made by <strong>Sukuna</strong>
           </Text>
