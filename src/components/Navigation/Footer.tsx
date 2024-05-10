@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FaReddit, FaDiscord, FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaReddit, FaDiscord, FaTwitter, FaGithub, FaTelegram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { year } from '../../hooks/useTIme';
 
@@ -147,6 +147,11 @@ export function Footer() {
           <nav aria-label='Social Links'>
             <SocialIconsWrapper>
               {[
+                {
+                  href: 'https://t.me/Anime_state',
+                  Icon: FaTelegram,
+                  label: 'Telegram',
+                },
                 {
                   href: 'https://www.reddit.com/u/Anime_state',
                   Icon: FaReddit,
