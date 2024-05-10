@@ -455,11 +455,11 @@ export const Navbar = () => {
         <NavbarWrapper>
           <TopContainer>
             <LogoImg
-              title='ANIME STATE.tv'
+              title='ANIME.state'
               to='/home'
               onClick={() => window.scrollTo(0, 0)}
             >
-              見るろ の 久遠
+              天国へようこそ
             </LogoImg>
 
             {/* Render InputContainer within the navbar for screens larger than 500px */}
