@@ -121,7 +121,7 @@ export function Footer() {
               About
             </FooterLink>
             <FooterLink
-              to='https://www.miruro.com'
+              to='https://AnimeState.live'
               target='_blank'
               title='Domains'
             >
@@ -131,7 +131,7 @@ export function Footer() {
               Privacy & ToS
             </FooterLink>
             <FooterLink
-              to='https://ko-fi.com/yourdev'
+              to='https://buymeacoffee.com/fazal00007'
               target='_blank'
               title='Donate to Us'
             >
@@ -143,31 +143,26 @@ export function Footer() {
           <Text as='p' $isSub={true}>
             &copy; {year}{' '}
             <a
-              href='https://www.miruro.com'
+              href='https://AnimeState.live'
               rel='noopener noreferrer'
               style={{ color: 'grey' }}
             >
               miruro.com
             </a>{' '}
-            | Website Made by <strong>Miruro no Kuon</strong>
+            | Website Made by <strong>Sukuna</strong>
           </Text>
           <nav aria-label='Social Links'>
             <SocialIconsWrapper>
               {[
                 {
-                  href: 'https://www.reddit.com/r/miruro',
+                  href: 'https://www.reddit.com/u/Anime_state',
                   Icon: FaReddit,
                   label: 'Reddit',
                 },
                 {
-                  href: 'https://discord.gg/4kfypZ96K4',
+                  href: 'https://discord.gg/KBTa8tCSVx',
                   Icon: FaDiscord,
                   label: 'Discord',
-                },
-                {
-                  href: 'https://twitter.com/miruro_official',
-                  Icon: FaTwitter,
-                  label: 'Twitter',
                 },
               ].map(({ href, Icon, label }) => (
                 <ShareButton
@@ -175,7 +170,7 @@ export function Footer() {
                   href={href}
                   target='_blank'
                   rel='noopener noreferrer'
-                  aria-label={`Miruro on ${label}`}
+                  aria-label={`Anime State on ${label}`}
                 >
                   <Icon aria-hidden='true' />
                 </ShareButton>
