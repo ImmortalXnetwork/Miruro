@@ -120,13 +120,6 @@ export function Footer() {
             <FooterLink to='/about' title='About Us'>
               About
             </FooterLink>
-            <FooterLink
-              to='https://AnimeState.live'
-              target='_blank'
-              title='Domains'
-            >
-              Domains
-            </FooterLink>
             <FooterLink to='/pptos' title='Privacy Policy and Terms of Service'>
               Privacy & ToS
             </FooterLink>
