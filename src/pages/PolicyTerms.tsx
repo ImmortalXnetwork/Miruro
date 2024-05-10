@@ -77,8 +77,8 @@ const sections = [
         <br></br>
         <strong>Contact Us</strong>: If you have any questions about these
         terms, please contact us at{' '}
-        <StyledLink href='mailto:Anime State@proton.me'>
-          Anime State@proton.me.
+        <StyledLink href='owner.anime_state@outlook.com'>
+          Owner@Anime state.
         </StyledLink>
       </Paragraph>
     ),
